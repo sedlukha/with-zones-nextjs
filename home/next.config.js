@@ -5,6 +5,10 @@ const nextConfig = {
   async rewrites() {
     return [
       {
+        source: "/:path*",
+        destination: `/:path*`,
+      },
+      {
         source: "/blog",
         destination: `${BLOG_URL}/blog`,
       },
@@ -17,8 +21,8 @@ const nextConfig = {
         destination: `${NEWS_URL}/news`,
       },
       {
-        source: "/news/:path+",
-        destination: `${NEWS_URL}/news/:path+`,
+        source: "/news/:path*",
+        destination: `${NEWS_URL}/news/:path*`,
       },
     ];
   },

@@ -6,10 +6,10 @@ export default function News() {
       <h3>This is our news</h3>
       <ul>
         <li>
-          <Link href="/news/post/1">Post 1</Link>
+          <Link href="/post/1">Post 1</Link>
         </li>
         <li>
-          <Link href="/news/post/2">Post 2</Link>
+          <Link href="/post/2">Post 2</Link>
         </li>
       </ul>
       <Link href="/">Home</Link>
