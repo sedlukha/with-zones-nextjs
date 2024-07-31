@@ -18,7 +18,7 @@ const nextConfig = {
       },
       {
         source: "/news/:path+",
-        destination: `${BLOG_URL}/news/:path+`,
+        destination: `${NEWS_URL}/news/:path+`,
       },
     ];
   },
