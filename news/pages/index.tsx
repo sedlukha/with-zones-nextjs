@@ -1,9 +1,9 @@
 import Link from "next/link";
 
-export default function Blog() {
+export default function News() {
   return (
     <div>
-      <h3>This is our blog</h3>
+      <h3>This is our news</h3>
       <ul>
         <li>
           <Link href="/news/post/1">Post 1</Link>
