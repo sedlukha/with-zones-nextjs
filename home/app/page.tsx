@@ -4,10 +4,13 @@ import Header from "../components/Header";
 export default function Home() {
   return (
     <div>
-      <Header />
+      <Header/>
       <p>This is our homepage</p>
       <div>
         <a href="/blog">Blog</a>
+      </div>
+      <div>
+        <a href="/news">Blog</a>
       </div>
       <div>
         <Link href="/about">About us</Link>
